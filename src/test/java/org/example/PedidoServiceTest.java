@@ -7,7 +7,8 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 // PASO 1: activar Mockito en JUnit 5.
-// @ExtendWith(MockitoExtension.class) hace que Mockito procese las anotaciones
+// @ExtendWith(MockitoExtension.class) hace que Mockito procese las anotaci
+// ones
 // @Mock de esta clase antes de cada test, sin tener que inicializarlas a mano.
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
